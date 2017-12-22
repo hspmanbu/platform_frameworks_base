@@ -1074,7 +1074,7 @@
 
     <!-- Minimum screen brightness setting allowed by the power manager.
          The user is forbidden from setting the brightness below this level. -->
-    <integer name="config_screenBrightnessSettingMinimum">10</integer>
+    <integer name="config_screenBrightnessSettingMinimum">5</integer>
 
     <!-- Maximum screen brightness allowed by the power manager.
          The user is forbidden from setting the brightness above this level. -->
@@ -1183,24 +1183,13 @@
 
          Must be overridden in platform specific overlays -->
     <integer-array name="config_autoBrightnessLevels">
-         <item>1</item>
          <item>5</item>
-         <item>14</item>
-         <item>37</item>
-         <item>50</item>
-         <item>75</item>
-         <item>100</item>
-         <item>150</item>
-         <item>200</item>
-         <item>250</item>
-         <item>300</item>
-         <item>400</item>
-         <item>500</item>
-         <item>750</item>
+         <item>55</item>
+         <item>350</item>
          <item>1000</item>
-         <item>2000</item>
-         <item>5000</item>
-         <item>9000</item>
+         <item>1600</item>
+         <item>2550</item>
+         <item>3000</item>
     </integer-array>
 
     <!-- Array of output values for LCD backlight corresponding to the LUX values
@@ -1209,23 +1198,12 @@
          The brightness values must be between 0 and 255 and be non-decreasing.
          This must be overridden in platform specific overlays -->
     <integer-array name="config_autoBrightnessLcdBacklightValues">
-        <item>1</item>
-        <item>3</item>
-        <item>10</item>
-        <item>17</item>
-        <item>20</item>
-        <item>26</item>
-        <item>35</item>
+        <item>5</item>
         <item>47</item>
-        <item>61</item>
-        <item>75</item>
-        <item>95</item>
-        <item>114</item>
-        <item>130</item>
-        <item>152</item>
-        <item>175</item>
-        <item>200</item>
-        <item>230</item>
+        <item>150</item>
+        <item>170</item>
+        <item>180</item>
+        <item>250</item>
         <item>255</item>
     </integer-array>
 
