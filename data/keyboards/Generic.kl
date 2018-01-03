@@ -177,7 +177,7 @@ key 152   POWER
 key 155   ENVELOPE
 key 156   BOOKMARK
 # key 157 "KEY_COMPUTER"
-key 158   BACK
+key 158   APP_SWITCH
 key 159   FORWARD
 key 160   MEDIA_CLOSE
 key 161   MEDIA_EJECT
@@ -404,7 +404,7 @@ key 484   B                 FUNCTION
 # key 503 KEY_BRL_DOT7
 # key 504 KEY_BRL_DOT8
 
-key 580   APP_SWITCH
+key 580   BACK
 key 582   VOICE_ASSIST
 
 # Keys defined by HID usages
